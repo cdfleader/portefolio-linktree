@@ -1,0 +1,129 @@
+:root {
+  /* Couleurs Dracula */
+  --primary: rgb(189, 147, 249);
+  --secondary: rgb(98, 114, 164);
+  --accent: rgb(139, 233, 253);
+  --text-primary: rgb(248, 248, 242);
+  --text-secondary: rgb(98, 114, 164);
+  --text-tertiary: rgb(68, 71, 90);
+  --background-primary: rgb(40, 42, 54);
+  --background-secondary: rgb(68, 71, 90);
+  --background-tertiary: rgb(98, 114, 164);
+  --success: rgb(80, 250, 123);
+  --warning: rgb(241, 250, 140);
+  --error: rgb(255, 85, 85);
+  --info: rgb(139, 233, 253);
+  --cyan: rgb(139, 233, 253);
+  --orange: rgb(255, 184, 108);
+  --pink: rgb(255, 121, 198);
+  --purple: rgb(189, 147, 249);
+  --red: rgb(255, 85, 85);
+  --yellow: rgb(241, 250, 140);
+  
+  /* Polices */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+
+  color-scheme: dark;
+  color: var(--text-primary);
+  background-color: var(--background-primary);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* Variables layout mobile-first */
+  --container-padding: 16px;
+  --section-spacing: 24px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+button {
+  border: 0;
+  font-family: inherit;
+}
+
+a {
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: var(--purple);
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+  :root {
+    font-size: 18px;
+    --container-padding: 24px;
+    --section-spacing: 32px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

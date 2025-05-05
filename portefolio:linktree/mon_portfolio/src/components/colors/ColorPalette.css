@@ -1,0 +1,30 @@
+.color-palette {
+  padding: 24px;
+  background-color: rgb(40, 42, 54);
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+
+.color-palette__title {
+  color: rgb(248, 248, 242);
+  margin-bottom: 24px;
+  font-size: 28px;
+  border-bottom: 1px solid rgb(98, 114, 164);
+  padding-bottom: 12px;
+}
+
+.color-group {
+  margin-bottom: 32px;
+}
+
+.color-group__title {
+  color: rgb(139, 233, 253);
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.color-group__swatches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+} 
