@@ -36,11 +36,11 @@ interface Competence {
 const experiences: Experience[] = [
   {
     id: 'exp1',
-    titre: 'Développeur Full Stack',
-    entreprise: 'TechInnovate Solutions',
-    periode: 'Janvier 2022 - Présent',
-    description: 'Conception et développement d\'applications web modernes. Travail sur des projets clients variés en utilisant les dernières technologies du marché. Collaboration étroite avec les designers et les chefs de produit pour livrer des solutions optimales.',
-    technologies: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'AWS'],
+    titre: 'Développeur Mobile Guidor',
+    entreprise: 'SkyConseil',
+    periode: 'Janvier 2024 - juin 2026',
+    description: 'Conception et développement d\'applications mobile',
+    technologies: ['Swift', 'c++', 'Uikit'],
     logo: 'https://cdn-icons-png.flaticon.com/512/2537/2537338.png'
   },
   {
